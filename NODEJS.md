@@ -3,7 +3,8 @@
 
 Tout d'abord, voici une image illustrant trois éléments clés pour comprendre NodeJS:
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/2ad8a4ba-3f05-4e84-a8d0-c50fdcd7bb6a)
+
 
 ## Qu'est-ce que NodeJS?
 
@@ -19,7 +20,7 @@ Dans le cas de JavaScript, l'environnement est ce qui va fournir les **objets** 
 
 Les différents environnements fournissent donc des fonctionnalités différentes. Par exemple, l'environnement d'exécution de NodeJS fournit des fonctionnalités pour lire et écrire des fichiers, pour créer des serveurs, etc. Alors que l'environnement d'exécution du navigateur fournit des fonctionnalités pour manipuler le DOM (La page Web), pour gérer les événements, etc.
 
-![alt text](image-2.png)
+![image-2](https://github.com/user-attachments/assets/8dda4b40-746a-454d-bb75-603506238fa2)
 
 ### Pourquoi utiliser NodeJS?
 
