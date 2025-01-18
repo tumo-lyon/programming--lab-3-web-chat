@@ -83,6 +83,27 @@ Pour exécuter ce programme, il suffit de créer un fichier `server.js` avec ce 
 
 **Note:** Cette fois-ci, le programme ne s'arrête pas tout seul. Il faut appuyer sur `Ctrl+C` dans le terminal pour l'arrêter. En effet, le serveur reste en écoute sur le port 3000 tant qu'on ne l'arrête pas.
 
+### Note sur les adresses IP
+
+Quand on crée un programme en réseau comme celui que nous venons de faire, celui-ci devient accessible à d'autres ordinateur sur le même réseau. Mais pour que notre ordinateur sache à avec quel autre ordinateur il doit communiquer, nous devons utiliser une **adresse IP**. Chaque appareils sur le réseau en possède une, c'est ce qui forme la base du réseau Internet.
+
+Par exemple voici une image d'un réseau avec des ordinateurs et une imprimante. Chaque appareil à sa propre adresse unique:
+
+![image](https://github.com/user-attachments/assets/d9327ea4-d852-48e7-8cca-d4641ef4bbc3)
+
+Dans notre cas si nous voulons partager notre site avec quelqu'un d'autre, nous devons lui communiquer notre adresse IP. Tu peux connaitre l'adresse IP de ton ordinateur via la commande `ifconfig` dans le terminal. Le résultat de la commande est un peut fouilli, mais sur les iMacs de TUMO tu dois retrouver la catégorie `en1`:
+
+```
+...
+en1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=400<CHANNEL_IO>
+	ether 80:5f:c5:44:98:ce 
+	inet6 fe80::1cb2:3002:a22d:8d22%en1 prefixlen 64 secured scopeid 0x5 
+	inet 10.21.38.40 netmask 0xfffffe00 broadcast 10.21.39.255
+...
+```
+Ce qui nous intéresse c'est l'addresse IPv4 noté à côté de `inet`, dans cet exemple notre adresse IP serait **10.21.38.40**.
+
 ## API NodeJS
 
 NodeJS fournit de [nombreuses API](https://nodejs.org/api/index.html) pour interagir avec le système d'exploitation, le réseau, le système de fichiers, etc. Voici quelques exemples d'API couramment utilisées:
