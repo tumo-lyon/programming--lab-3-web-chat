@@ -12,7 +12,7 @@ Cependant, le protocole HTTP a quelques limitations:
 - **Communication unidirectionnelle**: Le protocole HTTP est unidirectionnel. Cela signifie que le client envoie une requête au serveur et attend une réponse. Il n'est pas possible d'établir une communication bidirectionnelle entre le client et le serveur.
 - **Pas de support pour les push notifications**: Le protocole HTTP ne prend pas en charge les push notifications. Cela signifie que le serveur ne peut pas envoyer des données au client sans que le client ne le demande.
 
-![image](https://github.com/user-attachments/assets/72264368-7823-475d-a11a-36bb58fad32c)
+![image](https://github.com/user-attachments/assets/22f532c4-1529-41ee-b670-77a11d468e2a)
 
 ## Les WebSockets
 
@@ -20,7 +20,7 @@ Les WebSockets sont une technologie qui permet d'établir une communication bidi
 
 Les WebSockets fonctionnent en établissant une connexion persistante entre le client et le serveur. Une fois la connexion établie, le client et le serveur peuvent envoyer des données de manière asynchrone. Cela permet de créer des applications Web en temps réel, comme les chats en ligne, les jeux multijoueurs, etc.
 
-![image](https://github.com/user-attachments/assets/22f532c4-1529-41ee-b670-77a11d468e2a)
+![image](https://github.com/user-attachments/assets/72264368-7823-475d-a11a-36bb58fad32c)
 
 ## Socket.IO
 
@@ -119,4 +119,7 @@ server.listen(3000, () => {
 ```
 
 Notons que Socket.IO nous permet de permet de passer directement des valeurs telles que des objets, des tableaux, des chaînes de caractères, etc. dans les événements.
+
+![image](https://github.com/user-attachments/assets/18fb8a5a-72c9-4e27-a101-3f096eb19b38)
+
 
