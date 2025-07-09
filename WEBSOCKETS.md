@@ -123,3 +123,8 @@ Notons que Socket.IO nous permet de permet de passer directement des valeurs tel
 ![image](https://github.com/user-attachments/assets/18fb8a5a-72c9-4e27-a101-3f096eb19b38)
 
 
+Voici un schéma de l'ordre des événements:
+
+<img width="1516" alt="Capture d’écran 2025-07-09 à 13 25 34" src="https://github.com/user-attachments/assets/c76b1098-2516-46e0-8862-af73f5d47087" />
+
+
